@@ -24,7 +24,7 @@ build:
     - cmake build -LH
     - cmake --build build --clean-first --parallel="${CPU_COUNT}"
     - cmake --install build --component runtime
-  number: 0
+  number: 1
 
 requirements:
   build:
